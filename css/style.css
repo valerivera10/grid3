@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo {
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.textoytitulo {
+    display: flex;
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    font-size: 28px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    font-size: 20px;
+    color: grey;
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    color: white;
+    background: rgb(63, 63, 63);
+    width: 70px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos {
+    max-width: 100px;
+    height: 10px;
+}
